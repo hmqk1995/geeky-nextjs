@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "build-static": "next build && next export"
+    "static": "npm run build && next export -o _static"
   },
   "dependencies": {
     "next": "12.3.0",
