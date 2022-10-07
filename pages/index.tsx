@@ -9,6 +9,7 @@ const Home: NextPage = () => {
       <Head>
         <title>W and K Technology - Providing your customized digital solutions</title>
         <meta name="description" content="W and K Technology - Providing your customized digital solutions | website building | digital marketing" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
