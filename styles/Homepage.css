@@ -1,14 +1,15 @@
+.homepage-background {
+  width: 280px;
+  height: 280px;
+  filter: saturate(0.6);
+  margin: 0 auto;
+  position: relative;
+}
+
 @media screen and (min-width: 900px) {
   .homepage-background {
     position: absolute;
     top: -160px;
     right: 70px;
   } 
-}
-
-.homepage-background {
-  width: 280px;
-  height: 280px;
-  filter: saturate(0.6);
-  margin: 0 auto;
 }

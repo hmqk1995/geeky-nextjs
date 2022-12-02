@@ -11,11 +11,13 @@ const Home: NextPage = () => {
     >
       <Head>
         <title>
-          W and K Tech - Providing your customized digital solutions
+          W and K Tech - Working from anywhere with software development
+          opportunities
         </title>
         <meta
           name='description'
-          content='W and K Technology - Providing your customized digital solutions | website building | digital marketing'
+          content='W and K Technology - Working from anywhere with software development
+          opportunities | freelancing | side gig | information technology'
         />
         <meta name='apple-mobile-web-app-capable' content='yes' />
         <link rel='icon' href='/favicon.ico' />
@@ -64,17 +66,17 @@ const Home: NextPage = () => {
                 high-quality freelancing opportunities
               </li>
               <li className='font-semibold'>side gigs in your extra time</li>
-              <li className='font-semibold'>working remotely</li>
+              <li className='font-semibold'>working FULLY remote</li>
             </ul>
             <p className='font-sans text-sm mb-24'>
               We have got you covered! Enroll into our platform and we are
-              providing you with valuable opportunities from a wide range of our
-              clients.
+              providing you with the most valuable opportunities from a wide
+              range of our clients.
             </p>
           </div>
           <p className='font-sans text-center'>
-            Using AI powered engine to match your vetted talent with the right
-            needs.
+            Using AI powered engine to match your unique tech skills with the
+            right needs.
           </p>
           <div className='hero-form newsletter-form field field-grouped is-revealing'>
             <div className='control control-expanded'>
@@ -202,7 +204,7 @@ const Home: NextPage = () => {
                         </g>
                       </svg>
                     </div>
-                    <h3 className='feature-title'>Discover</h3>
+                    <h3 className='feature-title'>On Time Payment</h3>
                     <p className='text-sm'>
                       Where text is visible, people tend to focus on the textual
                       content rather than upon overall presentation.
@@ -244,10 +246,11 @@ const Home: NextPage = () => {
                         </g>
                       </svg>
                     </div>
-                    <h3 className='feature-title'>Discover</h3>
+                    <h3 className='feature-title'>Easy Matching</h3>
                     <p className='text-sm'>
-                      Where text is visible, people tend to focus on the textual
-                      content rather than upon overall presentation.
+                      Join our network, and our AI based job matching algorithm
+                      will match you with 500+ enterprise opportunities in our
+                      job database
                     </p>
                   </div>
                 </div>
