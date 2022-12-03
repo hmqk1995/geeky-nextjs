@@ -70,7 +70,7 @@ const Home: NextPage = () => {
       <main>
         <div className='container relative'>
           <h1 className='font-semibold font-mono text-5xl leading-relaxed text-center herotext'>
-            Working From ANYWHERE
+            WORK FROM ANYWHERE
             <br />
             Simplified
           </h1>
