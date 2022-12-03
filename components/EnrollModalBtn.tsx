@@ -1,11 +1,11 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, SyntheticEvent } from 'react';
 import classNames from 'classnames';
 import Dialog from '@mui/material/Dialog';
 
 export default function EnrollModalBtn({ email = '', small = false }) {
   const [open, setOpen] = useState(false);
 
-  const handleClickOpen = (e) => {
+  const handleClickOpen = (e: SyntheticEvent) => {
     e.preventDefault();
     setOpen(true);
   };
