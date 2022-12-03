@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useState, SyntheticEvent } from 'react';
 import classNames from 'classnames';
 import Dialog from '@mui/material/Dialog';
@@ -18,8 +19,10 @@ export default function EnrollModalBtn({ email = '', small = false }) {
     window.onmessage = function (e) {
       if (e.data == 'load') {
         // wait till iframe is loaded
-        const $iframe = document.querySelector('.enroll-modal-iframe')!;
-        $iframe.contentWindow.postMessage(`addEmail:${email}`, '*');
+        const $iframe: HTMLIFrameElement = document.querySelector(
+          '.enroll-modal-iframe'
+        )!;
+        $iframe.contentWindow!.postMessage(`addEmail:${email}`, origin);
         console.log('iframe', document.querySelector('.enroll-modal-iframe'));
       }
     };

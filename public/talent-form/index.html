@@ -627,7 +627,7 @@
   // try to fill out email field
   try {
     window.addEventListener('load', function () {
-      window.top.postMessage('load', '*');
+      window.top.postMessage('load', origin);
 
       window.onmessage = function (e) {
         console.log(e.data);
