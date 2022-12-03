@@ -1,8 +1,13 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
+import { useEffect, useState } from 'react';
+import classnames from 'classnames';
+import useWindowScrollTop from './hooks/useWindowScrollTop';
 
 const Home: NextPage = () => {
+  const windowScrollTop = useWindowScrollTop();
+
   return (
     <div
       style={{
@@ -23,7 +28,12 @@ const Home: NextPage = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <header className='site-header'>
+      <header
+        className={classnames({
+          'site-header': true,
+          'scroll-active': windowScrollTop !== 0,
+        })}
+      >
         <div className='container'>
           <div className='site-header-inner'>
             <div className='brand header-brand'>
