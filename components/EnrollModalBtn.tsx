@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
+import classNames from 'classnames';
 import Dialog from '@mui/material/Dialog';
 
-export default function EnrollModalBtn({ email = '' }) {
+export default function EnrollModalBtn({ email = '', small = false }) {
   const [open, setOpen] = useState(false);
 
   const handleClickOpen = (e) => {
@@ -27,7 +28,13 @@ export default function EnrollModalBtn({ email = '' }) {
   return (
     <div>
       <a
-        className='button button-primary button-block button-shadow'
+        className={classNames([
+          'button',
+          small ? 'button-sm' : '',
+          'button-primary',
+          'button-block',
+          'button-shadow',
+        ])}
         onClick={handleClickOpen}
       >
         Get early access

@@ -60,12 +60,7 @@ const Home: NextPage = () => {
                 </a>
               </h1>
             </div>
-            <a
-              className='button button-sm button-primary button-block'
-              href='#'
-            >
-              Get early access
-            </a>
+            <EnrollModalBtn small email={email} />
           </div>
         </div>
       </header>
