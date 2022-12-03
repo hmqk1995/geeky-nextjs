@@ -1,13 +1,15 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
-import { useEffect, useState } from 'react';
 import classnames from 'classnames';
-import useWindowScrollTop from './hooks/useWindowScrollTop';
+import useWindowScrollTop from '../hooks/useWindowScrollTop';
+import EnrollModalBtn from '../components/EnrollModalBtn';
 import Script from 'next/script';
+import { useState } from 'react';
 
 const Home: NextPage = () => {
   const windowScrollTop = useWindowScrollTop();
+  const [email, setEmail] = useState('');
 
   return (
     <div
@@ -108,16 +110,12 @@ const Home: NextPage = () => {
                 className='input'
                 type='email'
                 name='email'
+                onChange={(e) => setEmail(e.target.value)}
                 placeholder='Your email address&hellip;'
               />
             </div>
             <div className='control'>
-              <a
-                className='button button-primary button-block button-shadow'
-                href='#'
-              >
-                Get early access
-              </a>
+              <EnrollModalBtn email={email} />
             </div>
           </div>
         </div>
