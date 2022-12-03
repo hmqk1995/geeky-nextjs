@@ -302,7 +302,7 @@ ul.page-section {
 }
 ul.page-section {
   margin: 0;
-  padding: 0 38px;
+  padding: 134px 38px 0;
   list-style: none;
 }
 .form-line-column {
@@ -1001,6 +1001,13 @@ li[data-type='control_head'] {
 div.header-large {
   margin: 0 -38px;
   padding: 2.5em 52px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 104%;
+  z-index: 9999;
+  background: #d1ebffd9;
+  box-shadow: 26px 5px 5px #9dadd578;
 }
 .header-large .form-header {
   font-size: 2em;
