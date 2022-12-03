@@ -16,7 +16,7 @@ const Home: NextPage = () => {
     >
       <Head>
         <title>
-          W and K Tech - Working from anywhere with software development
+          W and K Technology - Working from anywhere with software development
           opportunities
         </title>
         <meta
@@ -39,25 +39,24 @@ const Home: NextPage = () => {
             <div className='brand header-brand'>
               <h1 className='m-0'>
                 <a href='#'>
-                  <Image src='/logo.svg' width={200} height={50} alt='logo' />
+                  <Image src='/logo.svg' width={260} height={40} alt='logo' />
                 </a>
               </h1>
             </div>
+            <a
+              className='button button-sm button-primary button-block'
+              href='#'
+            >
+              Get early access
+            </a>
           </div>
         </div>
       </header>
       <main>
         <div className='container relative'>
-          <h1
-            className='font-semibold font-mono text-5xl leading-relaxed text-center'
-            style={{
-              background:
-                '-webkit-linear-gradient(295deg, #5a90eb, #002c67 90%)',
-              WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
-            }}
-          >
-            Working From ANYWHERE, <br />
+          <h1 className='font-semibold font-mono text-5xl leading-relaxed text-center herotext'>
+            Working From ANYWHERE
+            <br />
             Simplified
           </h1>
           <div className='relative'>
@@ -146,78 +145,13 @@ const Home: NextPage = () => {
                         </g>
                       </svg>
                     </div>
-                    <h3 className='feature-title'>Discover</h3>
-                    <p className='text-sm'>
-                      Where text is visible, people tend to focus on the textual
-                      content rather than upon overall presentation.
-                    </p>
-                  </div>
-                </div>
-                <div className='feature is-revealing'>
-                  <div className='feature-inner'>
-                    <div className='feature-icon'>
-                      <svg
-                        width='80'
-                        height='80'
-                        xmlns='http://www.w3.org/2000/svg'
-                      >
-                        <g fill='none' fillRule='evenodd'>
-                          <path
-                            d='M48.066 61.627c6.628 0 10.087-16.79 10.087-23.418 0-6.627-5.025-9.209-11.652-9.209C39.874 29 24 42.507 24 49.135c0 6.627 17.439 12.492 24.066 12.492z'
-                            fillOpacity='.24'
-                            fill='#75ABF3'
-                          />
-                          <path
-                            d='M34 52V35M40 52V42M46 52V35M52 52V42M28 52V28'
-                            stroke='#4D8EF7'
-                            strokeWidth='2'
-                            strokeLinecap='square'
-                          />
-                        </g>
-                      </svg>
-                    </div>
-                    <h3 className='feature-title'>Discover</h3>
-                    <p className='text-sm'>
-                      Where text is visible, people tend to focus on the textual
-                      content rather than upon overall presentation.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className='features-wrap'>
-                <div className='feature is-revealing'>
-                  <div className='feature-inner'>
-                    <div className='feature-icon'>
-                      <svg
-                        width='80'
-                        height='80'
-                        xmlns='http://www.w3.org/2000/svg'
-                      >
-                        <g fill='none' fillRule='evenodd'>
-                          <path
-                            d='M48.066 61.627c6.628 0 10.087-16.79 10.087-23.418 0-6.627-5.025-9.209-11.652-9.209C39.874 29 24 42.507 24 49.135c0 6.627 17.439 12.492 24.066 12.492z'
-                            fillOpacity='.32'
-                            fill='#FF97AC'
-                          />
-                          <path
-                            stroke='#FF6D8B'
-                            strokeWidth='2'
-                            strokeLinecap='square'
-                            d='M49 45h6V25H35v6M43 55h2v-2M25 53v2h2M27 35h-2v2'
-                          />
-                          <path
-                            stroke='#FF6D8B'
-                            strokeWidth='2'
-                            strokeLinecap='square'
-                            d='M43 35h2v2M39 55h-2M33 55h-2M39 35h-2M33 35h-2M45 49v-2M25 49v-2M25 43v-2M45 43v-2'
-                          />
-                        </g>
-                      </svg>
-                    </div>
-                    <h3 className='feature-title'>On Time Payment</h3>
-                    <p className='text-sm'>
-                      Where text is visible, people tend to focus on the textual
-                      content rather than upon overall presentation.
+                    <h3 className='feature-title herotext'>
+                      High Quality Remote Opportunities
+                    </h3>
+                    <p className='text-xs'>
+                      We screen our clients strictly to make sure the
+                      opportunities are REAL, on-time and matching your
+                      expectation.
                     </p>
                   </div>
                 </div>
@@ -256,21 +190,166 @@ const Home: NextPage = () => {
                         </g>
                       </svg>
                     </div>
-                    <h3 className='feature-title'>Easy Matching</h3>
-                    <p className='text-sm'>
+                    <h3 className='feature-title herotext'>
+                      Easy And Advanced Matching
+                    </h3>
+                    <p className='text-xs'>
                       Join our network, and our AI based job matching algorithm
                       will match you with 500+ enterprise opportunities in our
-                      job database
+                      job database.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className='features-wrap'>
+                <div className='feature is-revealing'>
+                  <div className='feature-inner'>
+                    <div className='feature-icon'>
+                      <svg
+                        width='80'
+                        height='80'
+                        xmlns='http://www.w3.org/2000/svg'
+                      >
+                        <g fill='none' fillRule='evenodd'>
+                          <path
+                            d='M48.066 61.627c6.628 0 10.087-16.79 10.087-23.418 0-6.627-5.025-9.209-11.652-9.209C39.874 29 24 42.507 24 49.135c0 6.627 17.439 12.492 24.066 12.492z'
+                            fillOpacity='.32'
+                            fill='#FF97AC'
+                          />
+                          <path
+                            stroke='#FF6D8B'
+                            strokeWidth='2'
+                            strokeLinecap='square'
+                            d='M49 45h6V25H35v6M43 55h2v-2M25 53v2h2M27 35h-2v2'
+                          />
+                          <path
+                            stroke='#FF6D8B'
+                            strokeWidth='2'
+                            strokeLinecap='square'
+                            d='M43 35h2v2M39 55h-2M33 55h-2M39 35h-2M33 35h-2M45 49v-2M25 49v-2M25 43v-2M45 43v-2'
+                          />
+                        </g>
+                      </svg>
+                    </div>
+                    <h3 className='feature-title herotext'>On Time Payment</h3>
+                    <p className='text-xs'>
+                      Where text is visible, people tend to focus on the textual
+                      content rather than upon overall presentation.
+                    </p>
+                  </div>
+                </div>
+                <div className='feature is-revealing'>
+                  <div className='feature-inner'>
+                    <div className='feature-icon'>
+                      <svg
+                        width='80'
+                        height='80'
+                        xmlns='http://www.w3.org/2000/svg'
+                      >
+                        <g fill='none' fillRule='evenodd'>
+                          <path
+                            d='M48.066 61.627c6.628 0 10.087-16.79 10.087-23.418 0-6.627-5.025-9.209-11.652-9.209C39.874 29 24 42.507 24 49.135c0 6.627 17.439 12.492 24.066 12.492z'
+                            fillOpacity='.24'
+                            fill='#75ABF3'
+                          />
+                          <path
+                            d='M34 52V35M40 52V42M46 52V35M52 52V42M28 52V28'
+                            stroke='#4D8EF7'
+                            strokeWidth='2'
+                            strokeLinecap='square'
+                          />
+                        </g>
+                      </svg>
+                    </div>
+                    <h3 className='feature-title herotext'>Community</h3>
+                    <p className='text-xs'>
+                      By joining our network, you will be receiving exclusive
+                      opportunities that nowhere else will provide. Build your
+                      freelancing network and grow together.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          <div className='pb-32'></div>
         </section>
       </main>
 
-      <footer></footer>
+      <footer className='site-footer text-light'>
+        <div className='container'>
+          <div className='site-footer-inner'>
+            <div className='brand footer-brand'>
+              <a href='#'>
+                <Image
+                  src='/logo.svg'
+                  width={200}
+                  height={50}
+                  alt='logo'
+                  className='whitelogo'
+                />
+              </a>
+            </div>
+            <ul className='footer-links list-reset'>
+              <li>
+                <a href='mailto:support@wandktech.com'>
+                  Contact: support@wandktech.com
+                </a>
+              </li>
+            </ul>
+            <ul className='footer-social-links list-reset'>
+              {/* <li>
+                <a href='#'>
+                  <span className='screen-reader-text'>Facebook</span>
+                  <svg
+                    width='16'
+                    height='16'
+                    xmlns='http://www.w3.org/2000/svg'
+                  >
+                    <path
+                      d='M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z'
+                      fill='#FFFFFF'
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href='#'>
+                  <span className='screen-reader-text'>Twitter</span>
+                  <svg
+                    width='16'
+                    height='16'
+                    xmlns='http://www.w3.org/2000/svg'
+                  >
+                    <path
+                      d='M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z'
+                      fill='#FFFFFF'
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href='#'>
+                  <span className='screen-reader-text'>Google</span>
+                  <svg
+                    width='16'
+                    height='16'
+                    xmlns='http://www.w3.org/2000/svg'
+                  >
+                    <path
+                      d='M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z'
+                      fill='#FFFFFF'
+                    />
+                  </svg>
+                </a>
+              </li> */}
+            </ul>
+            <div className='footer-copyright'>
+              &copy; 2022 W and K Technology LLC, all rights reserved
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };

@@ -1,3 +1,13 @@
+.whitelogo {
+    filter: brightness(0) invert(1);
+}
+
+.herotext {
+    background: -webkit-linear-gradient(295deg, #5a90eb, #002c67 90%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .is-boxed {
     background: color(bg, 2);
 }
