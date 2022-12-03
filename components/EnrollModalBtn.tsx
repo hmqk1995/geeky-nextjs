@@ -23,7 +23,6 @@ export default function EnrollModalBtn({ email = '', small = false }) {
           '.enroll-modal-iframe'
         )!;
         $iframe.contentWindow!.postMessage(`addEmail:${email}`, origin);
-        console.log('iframe', document.querySelector('.enroll-modal-iframe'));
       }
     };
   }, [open]);

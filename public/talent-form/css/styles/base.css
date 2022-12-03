@@ -1005,8 +1005,9 @@ div.header-large {
   left: 0;
   top: 0;
   width: 104%;
-  z-index: 9999;
-  background: #d1ebffd9;
+  z-index: 999;
+  background: #c0e4ff;
+  background-image: linear-gradient(282deg, #c0e4ff, transparent);
   box-shadow: 26px 5px 5px #9dadd578;
 }
 .header-large .form-header {
@@ -7943,4 +7944,7 @@ iframe[data-client-id='5295b800485bd19f5d000005'] {
 }
 .isBuilder iframe[data-client-id='5295b800485bd19f5d000005'] {
   pointer-events: none;
+}
+div.form-all {
+  margin-top: 120px;
 }

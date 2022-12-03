@@ -630,7 +630,6 @@
       window.top.postMessage('load', origin);
 
       window.onmessage = function (e) {
-        console.log(e.data);
         if (e.data.indexOf('addEmail') === 0) {
           const email = e.data.split(':')[1];
           document.querySelector('#input_7').value = email;
