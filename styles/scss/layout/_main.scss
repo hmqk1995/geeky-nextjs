@@ -40,21 +40,18 @@ main {
     padding-bottom: 48px;
 }
 
-@include media( '>medium' ) {
+main {
+    padding-top: 110px;
 
-    main {
-        padding-top: 110px;
-
-        &::before {
-            top: -50%;
-            left: 20%;
-            width: 80%;
-            height: 651px;
-            background-size: 1480px 651px;
-        }
+    &::before {
+        top: -50%;
+        left: 20%;
+        width: 80%;
+        height: 651px;
+        background-size: 1480px 651px;
     }
-    .section-inner {
-        padding-top: 80px;
-        padding-bottom: 80px;
-    }
+}
+.section-inner {
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
