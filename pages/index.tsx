@@ -108,7 +108,7 @@ const Home: NextPage = () => {
         </div>
         <section className='features section text-center'>
           <div className='container'>
-            <div className='features-inner section-inner has-bottom-divider'>
+            <div className='features-inner section-inner'>
               <div className='features-wrap'>
                 <div className='feature is-revealing'>
                   <div className='feature-inner'>
@@ -272,7 +272,7 @@ const Home: NextPage = () => {
               </div>
             </div>
           </div>
-          <div className='pb-32'></div>
+          <div className='pb-16'></div>
         </section>
       </main>
 
