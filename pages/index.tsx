@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import classnames from 'classnames';
 import useWindowScrollTop from './hooks/useWindowScrollTop';
+import Script from 'next/script';
 
 const Home: NextPage = () => {
   const windowScrollTop = useWindowScrollTop();
@@ -27,6 +28,20 @@ const Home: NextPage = () => {
         <meta name='apple-mobile-web-app-capable' content='yes' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
+      {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
+      <Script
+        src='https://www.googletagmanager.com/gtag/js?id=G-EFRF12ZQZ9'
+        strategy='afterInteractive'
+      />
+      <Script id='google-analytics' strategy='afterInteractive'>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-EFRF12ZQZ9');
+        `}
+      </Script>
 
       <header
         className={classnames({
