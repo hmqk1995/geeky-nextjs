@@ -242,8 +242,8 @@ const Home: NextPage = () => {
                     </div>
                     <h3 className='feature-title herotext'>On Time Payment</h3>
                     <p className='text-xs'>
-                      Where text is visible, people tend to focus on the textual
-                      content rather than upon overall presentation.
+                      Use our progress tracking tools to get you paid promptly
+                      for what you have done. No late payment.
                     </p>
                   </div>
                 </div>
