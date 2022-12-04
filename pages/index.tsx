@@ -6,6 +6,7 @@ import useWindowScrollTop from '../hooks/useWindowScrollTop';
 import EnrollModalBtn from '../components/EnrollModalBtn';
 import Script from 'next/script';
 import { useState } from 'react';
+import Link from 'next/link';
 
 const Home: NextPage = () => {
   const windowScrollTop = useWindowScrollTop();
@@ -353,7 +354,26 @@ const Home: NextPage = () => {
               </li> */}
             </ul>
             <div className='footer-copyright'>
-              &copy; 2022 W and K Technology LLC, all rights reserved
+              <div className='flex flex-col'>
+                <div>
+                  &copy; 2022 W and K Technology LLC, all rights reserved
+                </div>
+                <div>
+                  <a
+                    href='/terms_and_conditions.html'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    Terms and Conditions
+                  </a>
+                  {' | '}
+                  <Link href='/privacy_policy' passHref>
+                    <a target='_blank' rel='noopener noreferrer'>
+                      Privacy Policy
+                    </a>
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
         </div>
