@@ -45,7 +45,19 @@ const Home: NextPage = () => {
           gtag('config', 'G-EFRF12ZQZ9');
         `}
       </Script>
+      <Script
+        src='https://www.googletagmanager.com/gtag/js?id=id=UA-250953984-1'
+        strategy='afterInteractive'
+      />
+      <Script id='google-analytics' strategy='afterInteractive'>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
 
+          gtag('config', 'UA-250953984-1');
+        `}
+      </Script>
       <header
         className={classnames({
           'site-header': true,
